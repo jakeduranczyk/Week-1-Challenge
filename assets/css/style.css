@@ -16,7 +16,7 @@ header {
 }
 
 header h1 {
-    display: inline-block;
+    display: inline-block ;
     font-size: 48px;
 }
 
@@ -59,6 +59,7 @@ p {
     background-position: center;
 }
 
+/*beginning of aside selectors*/
 .content {
     width: 77%;
     display: inline-block;
@@ -133,7 +134,9 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
+/*^end of aside selectors^*/
 
+/*Lines 139-192 apply to the main tag*/
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -188,6 +191,7 @@ p {
     font-size: 36px;
 }
 
+/*Lines 195-204 apply to the footer tag*/
 footer {
     padding: 30px;
     clear: both;
